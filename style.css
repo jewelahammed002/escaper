@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fonts*/
+@font-face{
+    font-family: brandon-grotesque-reg;
+    src: url(fonts/brandon-grotesque-reg.otf);
+}
+@font-face{
+    font-family: brandon-grotesque-light;
+    src: url(fonts/brandon-grotesque-light.otf)
+}
+@font-face{
+    font-family: brandon-grotesque-bld;
+    src: url(fonts/brandon-grotesque-bld.otf)
+}
+@font-face{
+    font-family: brandon-grotesque-medium;
+    src: url(fonts/brandon-grotesque-medium.otf);
+}
+/*fonts*/
+.main-wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*header*/
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/ebanner.jpg);
+    height: 690px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.nav-bar{
+    margin: 15px 0 115px 0;
+    padding: 35px 0;
+    overflow: hidden;
+
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+.menu{
+
+}
+.menu ul{
+    float: right;
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+.menu ul li a:hover{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.wrapper{
+    
+}
+.title{
+    padding: 15px;
+    display: block;
+}
+.heading{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.heading h2{
+    font-family: brandon-grotesque-reg;
+    font-weight: ;
+    font-size: 85px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.heading p{
+    font-family: brandon-grotesque-light;
+    font-size: 42px;
+    color: #ffffff;
+}
+.button{
+    padding: 90px 0;
+    text-align: center;
+}
+.btn{
+    font-family: brandon-grotesque-reg;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+/*header*/
+/*about*/
+.about{
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.about_1{
+    width: 60%;
+    float: left;
+}
+.about_1 h2{
+    font-family: brandon-grotesque-light;
+    font-size: 60px;
+}
+
+.about_1 span{
+    font-family: brandon-grotesque-bld;
+}
+.about_1 p{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+}
+.tree{
+    width: 30%;
+    float: right;
+    margin-top: 48px;
+}
+.tree img{
+}
+.about-2{
+    background: #f2f2f2;
+    padding: 85px 0;
+    overflow: hidden;
+}
+.about_2{
+    width: 60%;
+    float: right;
+}
+.about_2 h2{
+    font-family: brandon-grotesque-light;
+    font-size: 60px;
+}
+.about_2 span{
+    font-family: brandon-grotesque-bld;
+}
+.about_2 p{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.user{
+    width: 30%;
+    float: left;
+    margin-top: 48px;
+}
+.user img{
+
+}
+/*about*/
+/*services*/
+.services{
+    padding: 70px 0px;
+    overflow: hidden;
+}
+.container{
+  display: block;
+  margin-top: 50px;
+}
+
+.container .item{
+  width: 44%;
+  padding: 28px;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.icon img{
+    margin-right: 15px;
+}
+
+.info h6{
+    font-family: brandon-grotesque-medium;
+    font-size: 28px;
+}
+.info p{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+}
+/*services*/
+.clear{
+    clear: both;
+}
+/*clients review*/ 
+
+.clear{
+    clear: both;
+}
+/*comments*/
+.client_comment{
+    overflow: hidden;
+    background: #f2f2f2;
+    padding: 60px 0px;
+    margin-top: 90px;
+}
+.client_heading{
+    font-family: brandon-grotesque-light;
+    text-align: center;
+    font-size: 60px;
+}
+.client_heading span{
+    font-family: brandon-grotesque-bld;
+}
+.client_heading p {
+    font-family: brandon-grotesque-reg;
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 65px;
+}
+.comment_1{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.member1 img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 65px;
+}
+
+.content{
+    float: right;
+    margin-top: 15px;
+    padding: 10px 120px;
+
+}
+.content h3, .content2 h3{
+    font-family: brandon-grotesque-medium;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.content span, .content2 span{
+    font-family: brandon-grotesque-reg;
+    font-size: 20px;
+    color: #86a5d2;
+}
+ #talkbubble {
+    height: 180px;
+    background: white;
+    position: relative;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 99px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid white;
+    border-bottom: 10px solid transparent;
+}
+.comment_2{
+    margin-top: 40px;
+    overflow: hidden;
+}
+.member2 img{
+    float: right;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px #000000;
+}
+.content2{
+    float: left;
+    margin-top: 30px;
+    padding: 10px 120px;
+    margin-left: 60px;
+}
+ #talkbubble2 {
+    height: 180px;
+    width: 45%;
+    background: white;
+    position: relative;
+}
+#talkbubble2:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 99px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid white;
+    border-bottom: 10px solid transparent;
+}
+/*clients review*/
+/*site*/
+.site{
+    overflow: hidden;
+    padding: 50px 0;
+    margin-left: 220px;
+}
+.site ul{
+
+}
+.site ul li{
+    list-style-type: none;
+    float: left;
+    padding: 0px 28px;
+}
+.site ul li a{
+    text-decoration: none;
+}
+.site img{
+    width: 186px;
+    height: 42px;
+}
+/*site*/
+/*team*/
+
+.team{
+    background: #111111;
+    text-align: center;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.t_header{
+    text-align: center;
+}
+.t_header h4{
+    font-family: brandon-grotesque-light;
+    font-size: 60px;
+    color: #fff;
+}
+.t_header span{
+    font-family: brandon-grotesque-bld;
+    color: #fff;
+}
+.t_header p{
+    font-family: brandon-grotesque-light;
+    font-size: 29px;
+    color: #fff;
+}
+.ourteam{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.person{
+    padding: 25px 45px;
+}
+.person img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.name{
+    font-family: brandon-grotesque-medium;
+    color: #fff;
+    font-size: 22px;
+    padding-top: 10px;
+
+}
+.post{
+    font-family: brandon-grotesque-light;
+    font-size: 20px;
+    color: #fff;
+}
+.social{
+    margin-top: 10px;
+}
+.social a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0px 5px;
+    transition: 0.2s;
+}
+.social a img{
+    width: 40px;
+    height: 40px;
+}
+
+.dsc p{
+    font-family: brandon-grotesque-medium;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+/*team*/
+/*footer*/
+footer{
+    background: #7690c5;
+    color: #fff;
+    overflow: hidden;
+}
+.contuct_us{
+    padding: 100px 0 85px 0;
+}
+.ft_contact{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+.ft_contact h1{
+    font-family: brandon-grotesque-light;
+    font-size: 75px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+}
+.ft_contact h2{
+    font-family: brandon-grotesque-bld;
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;   
+}
+
+.ft_contact p{
+    font-family: brandon-grotesque-reg;
+    font-size: 22px;
+}
+.contact{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.contact_1{
+    width: 50%;
+    float: left;
+}
+.contact_2{
+    width: 50%;
+    float: right;
+}
+.contact_1 a, .contact_2 a{
+    text-decoration: none;
+}
+span img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px -5px 0;
+}
+.contact h6{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 20px;
+}
+/*form*/
+.form{
+    overflow: hidden;
+    float: right;
+    width: 45%;
+
+}
+input {
+    font-family: brandon-grotesque-reg;
+    font-weight: 300;
+    width: 90%;
+    padding: 15px 0 15px 50px;
+    border: none;
+    border-radius: 3px;
+}
+#textarea{
+    font-family: brandon-grotesque-reg;
+    font-weight: 300;
+    width: 90%;
+    padding: 15px 0 15px 50px;;
+    height: 150px;
+    border: none;
+    border-radius: 3px;
+}
+button {
+    font-family: brandon-grotesque-reg;
+    font-size: 23px;
+    color: #ffffff;
+    margin-left: 390px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 3px 40px;
+    background: #7690c5;
+    margin-top: 10px;
+    transition: .8s ease;
+}
+button:hover{
+    background-color: #fff;
+    color: #7690c5;
+    cursor: pointer;
+}
+/*form*/
+ .footer_bottom{
+    overflow: hidden;
+    text-align: center;
+    border-top: 1px solid white;
+ }
+ .footer_bottom p{
+    font-family: brandon-grotesque-medium;
+    font-size: 18px;
+    color: white;
+    padding: 40px 0;
+ }
+/*footer*/
